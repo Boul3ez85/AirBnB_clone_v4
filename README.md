@@ -264,12 +264,13 @@ It’s important in your project, to use the AirBnB API with the port 5001
 No known bugs at this time. 
 
 ## Authors
-Moez Ben Rebah <benrebah.moez@gmail.com> [Github](https://github.com/Boul3ez85) [Twitter](https://twitter.com/benrebahmoez1)
-Karim Bahri <karim-bahri-18@outlook.fr> [Github](https://github.com/GEEK1050) [Twitter](https://twitter.com/karimba06792328)
-Alexa Orrico - [Github](https://github.com/alexaorrico) / [Twitter](https://twitter.com/alexa_orrico)  
-Jennifer Huang - [Github](https://github.com/jhuang10123) / [Twitter](https://twitter.com/earthtojhuang)  
-Jhoan Zamora - [Github](https://github.com/jzamora5) / [Twitter](https://twitter.com/JhoanZamora10)  
-David Ovalle - [Github](https://github.com/Nukemenonai) / [Twitter](https://twitter.com/disartDave)
+
+- Moez Ben Rebah <benrebah.moez@gmail.com> / [Github](https://github.com/Boul3ez85) / [Twitter](https://twitter.com/benrebahmoez1)
+- Karim Bahri <karim-bahri-18@outlook.fr> / [Github](https://github.com/GEEK1050) / [Twitter](https://twitter.com/karimba06792328)
+- Alexa Orrico - [Github](https://github.com/alexaorrico) / [Twitter](https://twitter.com/alexa_orrico)  
+- Jennifer Huang - [Github](https://github.com/jhuang10123) / [Twitter](https://twitter.com/earthtojhuang)  
+- Jhoan Zamora - [Github](https://github.com/jzamora5) / [Twitter](https://twitter.com/JhoanZamora10)  
+- David Ovalle - [Github](https://github.com/Nukemenonai) / [Twitter](https://twitter.com/disartDave)
 
 Second part of Airbnb: Joann Vuong
 ## License
