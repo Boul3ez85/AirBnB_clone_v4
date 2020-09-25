@@ -150,10 +150,122 @@ EOF  all  create  destroy  help  quit  show  update
 (hbnb) quit
 ```
 
+
+
+
+# 0x06. AirBnB clone - Web dynamic
+
+
+![](https://s3.amazonaws.com/intranet-projects-files/concepts/74/hbnb_step5.png)
+
+
+## Resources
+
+<B>Read or watch:</B>
+
+- [Selector](https://jquery-tutorial.net/selectors/using-elements-ids-and-classes/)
+- [Get and set content](https://jquery-tutorial.net/dom-manipulation/getting-and-setting-content/)
+- [Manipulate CSS classes](https://jquery-tutorial.net/dom-manipulation/getting-and-setting-css-classes/)
+- [Manipulate DOM  elements](https://jquery-tutorial.net/dom-manipulation/the-append-and-prepend-methods/)
+- [Document ready](https://learn.jquery.com/using-jquery-core/document-ready/)
+- [Introduction](https://jquery-tutorial.net/ajax/introduction/)
+- [GET & POST request](https://jquery-tutorial.net/ajax/the-get-and-post-methods/)
+- [HTTP access control (CORS)](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS)
+
+
+## Learning Objectives
+
+At the end of this project, you are expected to be able to [explain to anyone](https://fs.blog/2012/04/feynman-technique/), <B>without the help of Google</B>:
+
+
+### General
+
+- How cool it is to request your own API
+- How to modify an HTML element style
+- How to get and update an HTML element content
+- How to modify the DOM
+- How to make a GET request with jQuery Ajax
+- How to make a POST request with jQuery Ajax
+- How to listen/bind to DOM events
+- How to listen/bind to user events
+
+
+## Requirements
+
+
+### General
+
+- Allowed editors: vi, vim, emacs
+- All your files will be interpreted on Chrome (version 57.0)
+- All your files should end with a new line
+- A README.md file, at the root of the folder of the project, is mandatory
+- Your code should be semistandard compliant with the flag --global $: semistandard *.js --global $
+- All your javascript must be in the folder scripts
+- You must use jQuery version 3.x
+- You are not allowed to use var
+- HTML should not reload for each action: DOM manipulation, update values, fetch data…
+
+
+## More Info
+
+### Import jQuery
+
+```
+<HEAD>
+    <SCRIPT src="https://code.jquery.com/jquery-3.2.1.min.js"></SCRIPT>
+</HEAD>
+```
+
+
+### Before starting the project...
+
+You will work on a codebase using [Flasgger](https://github.com/flasgger/flasgger), you will need to install it locally first before starting the RestAPI:
+
+```
+$ sudo apt-get install -y python3-lxml
+$ sudo pip3 install flask_cors # if it was not installed yet
+$ sudo pip3 install flasgger
+```
+
+If the RestAPI is not starting, please read the error message. Based on the(ses) error message(s), you will have to troubleshoot potential dependencies issues.
+
+<B>Here some solutions:</B>
+
+jsonschema <B>exception</B>
+
+```
+$ sudo pip3 uninstall -y jsonschema 
+$ sudo pip3 install jsonschema==3.0.1
+```
+
+#### No module named 'pathlib2'
+
+```
+$ sudo pip3 install pathlib2
+```
+
+### Expose ports from your Vagrant
+
+In your Vagrantfile, add this line for each port forwarded:
+
+```
+# I expose the port 5001 of my vm to the port 5001 on my computer
+config.vm.network :forwarded_port, guest: 5001, host: 5001 
+```
+
+
+if you need to expose other ports, same line but you will need to replace the “guest port” (inside your vagrant) and your “host port” (outside your vagrant, used from your browser for example)
+
+It’s important in your project, to use the AirBnB API with the port 5001
+
+
+
 ## Bugs
 No known bugs at this time. 
 
 ## Authors
+Moez Ben Rebah <benrebah.moez@gmail.com> [Github](https://github.com/Boul3ez85) [Twitter](https://twitter.com/benrebahmoez1)
+Karim Bahri <karim-bahri-18@outlook.fr> [Github](https://github.com/GEEK1050) [Twitter](https://twitter.com/karimba06792328)
 Alexa Orrico - [Github](https://github.com/alexaorrico) / [Twitter](https://twitter.com/alexa_orrico)  
 Jennifer Huang - [Github](https://github.com/jhuang10123) / [Twitter](https://twitter.com/earthtojhuang)  
 Jhoan Zamora - [Github](https://github.com/jzamora5) / [Twitter](https://twitter.com/JhoanZamora10)  
